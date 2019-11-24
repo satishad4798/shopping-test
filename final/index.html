@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <style>
+        body {font: normal 0.9em Arial;color:#222;}
+        header {display:block; font-size:1.2em;margin-bottom:100px;}
+        header a, header span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 10px;
+            border: 2px solid #000;
+            background: #DDD;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            height: 20px;
+        }
+        header span {background:white;}
+        a {color: #1155CC;}
+    </style>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+ <!--  -->
+ <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+      -->
+	<title>Login Page</title>
+  
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+<!--  -->
+
+</head>
+<body>
+
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a href="#" class="navbar-left"><img src="../img/1.png" height="30px"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <!-- <a href="#" class="nav-item nav-link active">Home</a> -->
+                           
+        
+                    </div>
+                    
+                   
+                </div>
+        
+               
+                <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LAYOUTS</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">L1</a>
+                                <a href="#" class="dropdown-item">L2</a>
+                                <a href="#" class="dropdown-item">L2</a>
+                                <a href="#" class="dropdown-item">L4</a>
+                                <a href="#" class="dropdown-item">L5</a>
+                                <a href="#" class="dropdown-item">L6</a>
+                                <a href="#" class="dropdown-item">L7</a>
+                                <a href="#" class="dropdown-item">L8</a>
+          
+                            </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Bag(5)</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">L1</a>
+                        <a href="#" class="dropdown-item">L2</a>
+                        <a href="#" class="dropdown-item">L2</a>
+                        <a href="#" class="dropdown-item">L4</a>
+                        <a href="#" class="dropdown-item">L5</a>
+                        <a href="#" class="dropdown-item">L6</a>
+                        <a href="#" class="dropdown-item">L7</a>
+                        <a href="#" class="dropdown-item">L8</a>
+        
+                    </div>
+                </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Us</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">L1</a>
+                            <a href="#" class="dropdown-item">L2</a>
+                            <a href="#" class="dropdown-item">L2</a>
+                            <a href="#" class="dropdown-item">L4</a>
+                            <a href="#" class="dropdown-item">L5</a>
+                            <a href="#" class="dropdown-item">L6</a>
+                            <a href="#" class="dropdown-item">L7</a>
+                            <a href="#" class="dropdown-item">L8</a>
+        
+                        </div>
+                    </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">English</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">L1</a>
+                        <a href="#" class="dropdown-item">L2</a>
+                        <a href="#" class="dropdown-item">L2</a>
+                        <a href="#" class="dropdown-item">L4</a>
+                        <a href="#" class="dropdown-item">L5</a>
+                        <a href="#" class="dropdown-item">L6</a>
+                        <a href="#" class="dropdown-item">L7</a>
+                        <a href="#" class="dropdown-item">L8</a>
+        
+                    </div>
+                </div>
+        
+        
+       </nav>
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+                
+            
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <!-- <a href="#" class="nav-item nav-link active">Home</a> -->
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">LAYOUTS</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">L1</a>
+                                <a href="#" class="dropdown-item">L2</a>
+                                <a href="#" class="dropdown-item">L2</a>
+                                <a href="#" class="dropdown-item">L4</a>
+                                <a href="#" class="dropdown-item">L5</a>
+                                <a href="#" class="dropdown-item">L6</a>
+                                <a href="#" class="dropdown-item">L7</a>
+                                <a href="#" class="dropdown-item">L8</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SHOP</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">5</a>
+                                <a href="#" class="dropdown-item">6</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">6</a>
+                                <a href="#" class="dropdown-item">7</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">BLOG</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">5</a>
+                                <a href="#" class="dropdown-item">6</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">7</a>
+                                <a href="#" class="dropdown-item">8</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">GALLARY</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">g1</a>
+                                <a href="#" class="dropdown-item">g2</a>
+                                <a href="#" class="dropdown-item">g3</a>
+                                <a href="#" class="dropdown-item">g4</a>
+                                <a href="#" class="dropdown-item">g5</a>
+                                <a href="#" class="dropdown-item">g6</a>
+                                <a href="#" class="dropdown-item">g7</a>
+                                <a href="#" class="dropdown-item">g8</a>
+          
+                            </div>
+                        </div>
+        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PAGES</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">4</a>
+                                <a href="#" class="dropdown-item">5</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">6</a>
+                                <a href="#" class="dropdown-item">7</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">MEN'S</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">4</a>
+                                <a href="#" class="dropdown-item">5</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">6</a>
+                                <a href="#" class="dropdown-item">7</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">WOMEN'S</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">5</a>
+                                <a href="#" class="dropdown-item">4</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">4</a>
+                                <a href="#" class="dropdown-item">7</a>
+          
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">BUY NOW!</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">PAGES</a>
+                                <a href="#" class="dropdown-item">WOMEN'S</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">MEN'S</a>
+                                <a href="#" class="dropdown-item">BUY NOW!</a>
+          
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                    <form class="form-inline">
+                        <div class="input-group">                    
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                   
+                </div>
+        
+        </nav>
+
+
+    <!--start-->
+
+     
+   
+             
+   <div class="container-fluid ">
+        <div class="row"> 
+            <div class="col-md-6  "  style="height: 400px;"  >
+                    <div class="row" > 
+                               
+                          <div class="col-sm-3" id="myCarousel" class="carousel vertical slide pull-left"  >
+                                 <div style="width: 10px;height: 10px;">
+                                  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="icon/up.png" ></a>
+                                
+                               
+                                </div>
+                                  <br><br>
+                            <!-- Carousel items -->
+                            <div class=" carousel-inner">
+
+                                  <div  class="item active">
+                                    <div class="row-fluid">
+                                      <table>
+                                        <tr>
+                                          <td><div class="span3" ><a href="#x" class="small-thumbnail" >
+                                            <img src="img/video.png" alt="img" data-display="img/video.png" style="height:100px;">
+                                            
+                                          </a>
+                                           
+                                          </div>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/2.jpg" alt="img" data-display="img/2.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/3.jpg" alt="img" data-display="img/3.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                      
+                                      
+
+                                      </table>
+                                    </div><!--/row-fluid-->
+                                  </div><!--/item-->
+
+                                  <div class="item">
+                                    <div class="row-fluid">
+                                      <table>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/4.jpg" alt="img" data-display="img/4.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/5.jpg" alt="img" data-display="img/5.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/6.jpg" alt="img" data-display="img/6.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                        
+                                      </table>
+                                    </div><!--/row-fluid-->
+                                  </div><!--/item-->
+                  
+                                  <div class="item">
+                                    <div class="row-fluid">
+                                      <table>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/7.jpg" alt="img" data-display="img/7.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/8.jpg" alt="img" data-display="img/8.jpg"style="height:100px;"></a></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td><div class="span3"><a href="#x" style = " width:50px; " class="small-thumbnail"><img src="img/9.jpg" alt="img" data-display="img/9.jpg" style="height:100px;"></a></div></td>
+                                        </tr>
+                                      </table>
+                                    </div><!--/row-fluid-->
+                                  </div><!--/item-->
+
+                            </div><!--/carousel-inner--> 
+              
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="icon/down.png"></a>    
+                          </div><!--/myCarousel-->
+                          <div class="col-sm-9" >
+                             <a  href="./img/video.mp4" >
+                            <img src="img/video.png" id="DataDisplay"  class="img-fluid" style="width:100% ;height:400px ; "/>
+                          </a>
+                          <div class="carousel-caption">
+                              <h1>click to play video</h1>
+                            </div>   
+                          </div>
+                          
+                        <!--/well-->
+                    </div>
+            
+                    
+                     
+            </div>
+                <!--end-->
+                
+              
+
+            <div class="col-md-6">
+                
+
+                        <div class="product-page-info">
+                            <div class=" d-flex  ">
+                                <div>
+                                        <button type="button" class="btn btn-danger">HOT</button>
+                                </div> <br><br>
+
+                                <div >
+                                        <button type="button" class="btn btn-primary">NEW</button>
+                                </div><br>
+                                <div > <div class="fs-icon" title="Expand/Close"></div>
+                                        <button type="button" class="btn btn-success">IN STOCK</button>
+                                </div><br>
+                                <div>
+                                        <button type="button" class="btn btn-secondary">Out Stock</button>   
+                                </div>
+                                
+                            </div><br>
+                                <div class=" mb-15 text-center text-lg-left"><h1
+                                        class="h3 m-0">sparks sandals</h1></div>
+
+                                </div><br>
+                                
+                                <div>
+                                        <p class="m-0" data-js-product-vendor="">VENDOR: <span class="font-weight-bold">Dior</span></p>
+                                </div><br>
+                            
+                                <div>
+                                        <p class="m-0" >SKU: <span>00114с-1</span></p>
+                                </div><br>
+                                <div>
+                                        <p class="m-0" >AVAILABILITY: <span class="font-weight-bold">IN STOCK(9 items)</span></p>  
+                                </div><br>
+                                <div>
+                                        <p class="m-0" >PRODUCT TYPE: <span class="font-weight-bold">SHOES</span></p>  
+                                </div><br>
+
+                                
+                                      <div class="form-group">
+                                            SIZE: <br>
+                                            <div class="col-sm-7 col-md-7">
+                                                <div class="input-group">
+                                                    <div id="radioBtn" class="btn-group">
+                                                        <a class="btn btn-primary btn-lg active" data-toggle="fun" data-title="36">36</a>
+                                                        <a class="btn btn-primary btn-lg notActive" data-toggle="fun" data-title="37">37</a>
+                                                        <a class="btn btn-primary btn-lg notActive" data-toggle="fun" data-title="38">38</a>
+                                                        <a class="btn btn-primary btn-lg notActive" data-toggle="fun" data-title="39">39</a>
+                                                        <a class="btn btn-primary btn-lg notActive" data-toggle="fun" data-title="40">40</a>
+                                                       
+                                                    </div>
+                                                    <input type="hidden" name="SIZE" id="size">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <br>     <br><br>      
+                               <div>
+                                    <button type="button"  class="btn btn-lg btn-outline-primary " onclick="myFunction()">ADD TO CART</button>
+                                    <a href="buy.html">
+                                    <button   type="button" class="btn btn-lg btn-outline-success"> 
+                                       BUY NOW!  </button> </a>
+                               </div> 
+                                          
+                             
+
+            </div>
+        
+        </div>
+
+   </div>
+
+   <!-- description -->
+    <br><br><br>
+   <div class="container-fluid ">
+       <h1 class="font-weight-bold">     Product description   </h1> <br>
+         <h2>Product description </h2>
+         <p>Sparx is known for its sturdy quality and stylish designs. The Sparx SS0105G features an anti-skid sole to support a steady grip. Enhance your style quotient by flaunting it and give your feet the comfort they deserve.
+                brand_description</p>
+
+         <h2 >brand_description</h2>  
+         <p> Sparx, the most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. Known for its sturdy and stylish designs, Sparx is an iconic youth brand for those who dare to explore the world.
+
+                Sparx is a spectacular range of footwear from the house of Relaxo Footwears Ltd., a name trusted among millions of people in India and across the world for delivering unmatched quality. Since its inception, the company has established a benchmark for bringing the finest range of footwears.
+                
+                A perfect combination of comfort, style, and workmanship, Sparx is all about confidence and making a fashion statement. Its flaunting design pattern sparks a cool statement as you take a step ahead in them. </p>
+                        <br><br>
+           <h1>   From the manufacturer</h1>      
+               <div class="sm-10" class=""> <img src="./img/s1.jpg" alt="img" style="width: 100%;" class="img-fluid" ></div> 
+
+
+
+   </div>
+<!-- description -->
+
+<!-- horizontaldiv-->
+<br><br>
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-md-3">
+          <img src="./img/c3.jpg" alt="" style="width: 100%;">
+        </div>
+        <div class="col-md-6">
+            <h1>Men's Outdoor Sandals by Sparx - Walk in Comfort and Casual Style! </h1>
+            <p>This colourful men's outdoor sandal is presented to you by Sparx. It features a hook and loop closure with adjustable velcro straps for a customised fit as per your foot size and comfort. The sandals have grooved outer sole offer an anti-slip grip while walking. Apart from comfort, it has been engineered to keep up to an everyday smart fashion statement. Wear your casual taste in fashion by putting on this trendy pair! </p>
+        </div>
+        <div class="col-md-2 ">
+                <div class="card"  style="max-width: max-content; height: max-content;" >
+                     
+                        <div class="card-body" style="background-color: rgb(231, 223, 223);"> 
+                          <h5 class="card-title">Important Features  </h5>
+                          <ul>
+                              <li>
+                                    Anti-slip grooved outsole
+                              </li>
+                                 <li>
+                                    Comfortable foot bed
+                                </li>
+                                <li>
+                                    Loop for hanging
+                                </li>
+                          </ul>
+                       
+                        </div>
+                      </div>
+        </div>
+    </div>  
+</div>
+<!-- horizontal card -->
+
+<!-- cards -->
+ <br><br><br>
+<div class="card-deck  mr-4 ml-4" >
+        <div class="card" style="height:500px;">
+          <img src="./img/c1.jpg" class="card-img-top" alt="c1" class="img-fluid">
+          <div class="card-body">
+            <h1 class="card-title">Stitch Detailing </h1>
+            <h4 class="card-text">This pair of sandals features unique stitch detailings. This kind of design feature has utilitarian properties as well since it makes this pair of outdoor sandals even stronger. </h4>
+         
+          </div>
+        </div>
+        <div class="card" style="height: 500px;">
+          <img src="./img/c2.jpg" class="card-img-top" alt="c2 img" class="img-fluid">
+          <div class="card-body">
+            <h1 class="card-title">Adjustable Toe Strap </h1>
+            <h5 class="card-text">The sandal pair features an adjustable toe strap. It can be flipped open. Adjust the size of it according to your foot shape and close the velcro strap.</h5>
+        
+          </div>
+        </div>
+        <div class="card" style="height: 500px;">
+          <img src="./img/c3.jpg" class="card-img-top" alt="c3 img." class="img-fluid">
+          <div class="card-body">
+            <h2 class="card-title">Hook and Loop Closure </h2>
+            <h4 class="card-text">The sandals feature a hook and loop velcro closure on the rear. Depending on your comfort level, you can adjust the strap. The soft fabric padding on the inside of the strap helps to prevent your foot from getting blisters. </h4>
+         
+          </div>
+        </div>
+      </div>
+
+<br><br><br>
+<!--Carousel Wrapper-->
+
+
+      <!--/.Carousel Wrapper-->
+
+
+
+
+      <!-- cards -->
+   <!-- <script src="./js/jquery.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/popper.js"></script> -->
+  <script src="my.js"></script>
+  <script src="js/jquery.min.js"></script> 
+  <script src="js/bootstrap.js"></script> 
+   <script src="js/script.js"></script> 
+   <script>
+   $(function () {
+       $('[data-toggle="tooltip"]').tooltip()
+     })
+     </script>
+     
+<script>
+function ChangeColor() {
+            var lableText = document.getElementById('rad2');
+            lableText.style.color = "red";
+        }
+        </script>
+
+
+<script>
+$('#radioBtn a').on('click', function(){
+    var sel = $(this).data('title');
+    var tog = $(this).data('toggle');
+    $('#'+tog).prop('value', sel);
+    
+    $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+    $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+})
+
+</script>
+
+
+<script>
+function myFunction() {
+  alert("item added to cart successfully!");
+ 
+}
+</script>
+
+</script>
+</body>
+</html>
